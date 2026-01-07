@@ -6,14 +6,14 @@
 
     <!-- BaseApp + Farcaster Frame v1 -->
     <meta property="fc:frame" content="true" />
-    <meta property="fc:frame:image" content="https://YOUR-VERCEL-DOMAIN.vercel.app/nft.png" />
+    <meta property="fc:frame:image" content="https://retrobase-frame.vercel.app/nft.png" />
     <meta property="fc:frame:button:1" content="Mint" />
-    <meta property="fc:frame:post_url" content="https://YOUR-VERCEL-DOMAIN.vercel.app/api/mint" />
+    <meta property="fc:frame:post_url" content="https://retrobase-frame.vercel.app/api/mint" />
 
     <!-- OG fallback -->
     <meta property="og:title" content="Retrobase Frame" />
     <meta property="og:description" content="Mint your retro pixel NFT on Base" />
-    <meta property="og:image" content="https://YOUR-VERCEL-DOMAIN.vercel.app/nft.png" />
+    <meta property="og:image" content="https://retrobase-frame.vercel.app/nft.png" />
   </head>
 
   <body style="font-family: sans-serif; padding: 2rem;">
