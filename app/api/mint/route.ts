@@ -24,12 +24,13 @@ export async function POST(req: NextRequest) {
     const amount = 1n;
 
     const tx = await client.writeContract({
-      address: CONTRACT_ADDRESS,
-      abi: ABI,
-      functionName: "mintTo",
-      args: [userAddress, amount, ZERO_ADDRESS],
-      chain: base, // ← ZORUNLU EKLEME
-    });
+  address: CONTRACT_ADDRESS,
+  abi: ABI,
+  functionName: "mintTo",
+  args: [userAddress, amount, ZERO_ADDRESS],
+  chain: base,
+  account, // ← ZORUNLU
+});
 
     return new Response(
       JSON.stringify({ success: true, tx }),
