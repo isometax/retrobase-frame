@@ -28,6 +28,7 @@ export async function POST(req: NextRequest) {
       abi: ABI,
       functionName: "mintTo",
       args: [userAddress, amount, ZERO_ADDRESS],
+      chain: base, // ← ZORUNLU EKLEME
     });
 
     return new Response(
