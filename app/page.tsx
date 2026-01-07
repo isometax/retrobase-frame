@@ -2,11 +2,14 @@ export const metadata = {
   title: "Retrobase Frame",
   description: "Mint your retro pixel NFT on Base",
   openGraph: {
-    images: ["https://retrobase-frame.vercel.app/retro.png"],
+    images: [
+      "https://retrobase-cards.nfts2.me/api/image/1042837497527936355385278742332698144974027353552",
+    ],
   },
   other: {
     "fc:frame": "true",
-    "fc:frame:image": "https://retrobase-frame.vercel.app/retro.png",
+    "fc:frame:image":
+      "https://retrobase-cards.nfts2.me/api/image/1042837497527936355385278742332698144974027353552",
     "fc:frame:button:1": "Mint",
     "fc:frame:post_url": "https://retrobase-frame.vercel.app/api/mint",
   },
