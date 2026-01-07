@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import { createPublicClient, http, createWalletClient } from "viem";
 import { base } from "viem/chains";
 import { privateKeyToAccount } from "viem/accounts";
-import ABI from "@/lib/abi.json";
+import ABI from "../../../lib/abi.json";
 
 const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS as `0x${string}`;
 const PRIVATE_KEY = process.env.PRIVATE_KEY as `0x${string}`;
